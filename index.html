@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meredith Ding — Data Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#home">MD</a>
+      <ul class="nav-links">
+        <li><a href="#home"     data-en="Home"       data-zh="首页">Home</a></li>
+        <li><a href="#about"    data-en="About"      data-zh="关于我">About</a></li>
+        <li><a href="#projects" data-en="Projects"   data-zh="项目">Projects</a></li>
+        <li><a href="#experience" data-en="Experience" data-zh="经历">Experience</a></li>
+        <li><a href="#skills"   data-en="Skills"     data-zh="技能">Skills</a></li>
+        <li><a href="#contact"  data-en="Contact"    data-zh="联系">Contact</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button id="lang-toggle" aria-label="Toggle language">EN / 中文</button>
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <span class="icon-sun">☀</span>
+          <span class="icon-moon">☽</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <ul class="mobile-menu" id="mobile-menu">
+      <li><a href="#home"       data-en="Home"        data-zh="首页">Home</a></li>
+      <li><a href="#about"      data-en="About"       data-zh="关于我">About</a></li>
+      <li><a href="#projects"   data-en="Projects"    data-zh="项目">Projects</a></li>
+      <li><a href="#experience" data-en="Experience"  data-zh="经历">Experience</a></li>
+      <li><a href="#skills"     data-en="Skills"      data-zh="技能">Skills</a></li>
+      <li><a href="#contact"    data-en="Contact"     data-zh="联系">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content fade-in">
+      <div class="hero-photo-wrap">
+        <img src="assets/profile.jpg" alt="Meredith Ding" class="hero-photo" onerror="this.style.display='none'" />
+      </div>
+      <div class="hero-text">
+        <p class="hero-eyebrow" data-en="Data Analytics Graduate Student" data-zh="数据分析研究生">Data Analytics Graduate Student</p>
+        <h1 class="hero-name">Meredith Ding</h1>
+        <p class="hero-school" data-en="NYU Tandon School of Engineering" data-zh="纽约大学坦顿工程学院">NYU Tandon School of Engineering</p>
+        <p class="hero-intro" data-en="I'm a data analytics student focusing on data visualization, business insights, and decision-driven analytics — turning raw numbers into stories that matter." data-zh="我是一名专注于数据可视化、商业洞察和决策驱动分析的数据分析学生，将原始数据转化为有价值的故事。">
+          I'm a data analytics student focusing on data visualization, business insights, and decision-driven analytics — turning raw numbers into stories that matter.
+        </p>
+        <div class="hero-actions">
+          <a href="assets/resume.pdf" download class="btn btn-primary" data-en="Download Resume" data-zh="下载简历">Download Resume</a>
+          <a href="#contact" class="btn btn-outline" data-en="Contact Me" data-zh="联系我">Contact Me</a>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">↓</a>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-en="About" data-zh="关于我">About</span>
+        <h2 data-en="A little about me" data-zh="关于我自己">A little about me</h2>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p data-en="I'm a graduate student in Data Analytics at NYU Tandon School of Engineering with a passion for transforming complex datasets into clear, actionable insights. My academic journey has equipped me with a strong foundation in statistical modeling, data visualization, and business intelligence." data-zh="我是纽约大学坦顿工程学院数据分析专业的研究生，热衷于将复杂数据集转化为清晰、可操作的洞察。我的学习经历为我奠定了统计建模、数据可视化和商业智能的坚实基础。">
+            I'm a graduate student in Data Analytics at NYU Tandon School of Engineering with a passion for transforming complex datasets into clear, actionable insights. My academic journey has equipped me with a strong foundation in statistical modeling, data visualization, and business intelligence.
+          </p>
+          <p data-en="My goal is to join a data-driven product or analytics team where I can leverage Python, Tableau, and SQL to uncover patterns and help organizations make smarter decisions. I love the intersection of storytelling and data — making insights accessible to everyone, not just data teams." data-zh="我的目标是加入一个数据驱动的产品或分析团队，在那里我可以利用Python、Tableau和SQL来发现规律，帮助组织做出更明智的决策。我热爱数据与故事的交汇点——让洞察对所有人都易于理解，而不仅仅是数据团队。">
+            My goal is to join a data-driven product or analytics team where I can leverage Python, Tableau, and SQL to uncover patterns and help organizations make smarter decisions. I love the intersection of storytelling and data — making insights accessible to everyone, not just data teams.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">3+</span>
+            <span class="stat-label" data-en="Analytics Projects" data-zh="分析项目">Analytics Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">5+</span>
+            <span class="stat-label" data-en="Tools Mastered" data-zh="掌握工具">Tools Mastered</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">1</span>
+            <span class="stat-label" data-en="Internship" data-zh="实习经历">Internship</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-en="Projects" data-zh="项目">Projects</span>
+        <h2 data-en="Selected Work" data-zh="精选作品">Selected Work</h2>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Card 1 -->
+        <article class="project-card reveal"
+          data-title-en="Hospital Patient Satisfaction Dashboard"
+          data-title-zh="医院患者满意度仪表板"
+          data-desc-en="Built an interactive Tableau dashboard analyzing 10,000+ patient survey responses to identify key satisfaction drivers. Enabled hospital management to prioritize interventions and improve scores by 12% over one quarter."
+          data-desc-zh="构建了一个交互式Tableau仪表板，分析了10,000多份患者调查回复，以识别关键满意度驱动因素。帮助医院管理层确定干预优先级，在一个季度内将评分提高了12%。"
+          data-tools="Tableau · Python · Data Visualization">
+          <div class="card-img-wrap">
+            <img src="assets/project1.jpg" alt="Project 1" onerror="this.parentElement.classList.add('img-placeholder')" />
+            <div class="card-overlay">
+              <button class="btn btn-sm" data-en="View Details" data-zh="查看详情">View Details</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title" data-en="Hospital Patient Satisfaction Dashboard" data-zh="医院患者满意度仪表板">Hospital Patient Satisfaction Dashboard</h3>
+            <p class="card-desc" data-en="Interactive dashboard analyzing patient survey data to drive satisfaction improvements." data-zh="分析患者调查数据以推动满意度提升的交互式仪表板。">Interactive dashboard analyzing patient survey data to drive satisfaction improvements.</p>
+            <div class="card-tools">Tableau · Python · Data Visualization</div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card reveal"
+          data-title-en="Capital Bikeshare Usage Analysis"
+          data-title-zh="首都共享单车使用分析"
+          data-desc-en="Performed end-to-end exploratory data analysis on 2M+ ride records using Python and Pandas. Identified usage patterns by season, time, and station, providing actionable recommendations for fleet rebalancing."
+          data-desc-zh="使用Python和Pandas对200多万条骑行记录进行了端到端的探索性数据分析。按季节、时间和站点识别使用模式，为车队再平衡提供可操作的建议。"
+          data-tools="Python · Pandas · Data Analysis">
+          <div class="card-img-wrap">
+            <img src="assets/project2.jpg" alt="Project 2" onerror="this.parentElement.classList.add('img-placeholder')" />
+            <div class="card-overlay">
+              <button class="btn btn-sm" data-en="View Details" data-zh="查看详情">View Details</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title" data-en="Capital Bikeshare Usage Analysis" data-zh="首都共享单车使用分析">Capital Bikeshare Usage Analysis</h3>
+            <p class="card-desc" data-en="EDA on 2M+ ride records to uncover usage patterns and fleet optimization opportunities." data-zh="对200万条骑行记录进行探索性数据分析，发现使用规律和车队优化机会。">EDA on 2M+ ride records to uncover usage patterns and fleet optimization opportunities.</p>
+            <div class="card-tools">Python · Pandas · Data Analysis</div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="project-card reveal"
+          data-title-en="Restaurant Financial Forecast Model"
+          data-title-zh="餐厅财务预测模型"
+          data-desc-en="Developed a 3-year financial forecast model for a restaurant group using Excel. Incorporated scenario analysis (best/base/worst case) and sensitivity tables to support expansion planning decisions."
+          data-desc-zh="使用Excel为餐饮集团开发了3年财务预测模型。纳入情景分析（最佳/基准/最差情况）和敏感性表格，以支持扩张计划决策。"
+          data-tools="Excel · Financial Modeling">
+          <div class="card-img-wrap img-placeholder">
+            <div class="card-overlay">
+              <button class="btn btn-sm" data-en="View Details" data-zh="查看详情">View Details</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title" data-en="Restaurant Financial Forecast Model" data-zh="餐厅财务预测模型">Restaurant Financial Forecast Model</h3>
+            <p class="card-desc" data-en="3-year financial model with scenario analysis to guide restaurant expansion strategy." data-zh="带有情景分析的3年财务模型，指导餐厅扩张战略。">3-year financial model with scenario analysis to guide restaurant expansion strategy.</p>
+            <div class="card-tools">Excel · Financial Modeling</div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-en="Experience" data-zh="经历">Experience</span>
+        <h2 data-en="Where I've Been" data-zh="我的经历">Where I've Been</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-org">NYU Tandon School of Engineering</span>
+              <span class="timeline-period" data-en="2025 – Present" data-zh="2025年 – 至今">2025 – Present</span>
+            </div>
+            <h3 class="timeline-role" data-en="Data Analytics Research Project" data-zh="数据分析研究项目">Data Analytics Research Project</h3>
+            <ul class="timeline-bullets">
+              <li data-en="Conducting research on healthcare data quality and visualization methods for clinical decision support." data-zh="开展医疗数据质量和临床决策支持可视化方法研究。">Conducting research on healthcare data quality and visualization methods for clinical decision support.</li>
+              <li data-en="Building automated data pipelines using Python and SQL to clean and aggregate multi-source datasets." data-zh="使用Python和SQL构建自动化数据管道，清理和聚合多源数据集。">Building automated data pipelines using Python and SQL to clean and aggregate multi-source datasets.</li>
+              <li data-en="Designing interactive Tableau dashboards to communicate findings to non-technical stakeholders." data-zh="设计交互式Tableau仪表板，向非技术利益相关者传达研究结果。">Designing interactive Tableau dashboards to communicate findings to non-technical stakeholders.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-org" data-en="Company Name" data-zh="某公司">Company Name</span>
+              <span class="timeline-period" data-en="Summer 2024" data-zh="2024年夏">Summer 2024</span>
+            </div>
+            <h3 class="timeline-role" data-en="Marketing Data Analysis Intern" data-zh="市场数据分析实习生">Marketing Data Analysis Intern</h3>
+            <ul class="timeline-bullets">
+              <li data-en="Analyzed campaign performance data across 5 digital channels using Excel and Python, identifying a 23% improvement opportunity." data-zh="使用Excel和Python分析5个数字渠道的活动绩效数据，发现了23%的改进机会。">Analyzed campaign performance data across 5 digital channels using Excel and Python, identifying a 23% improvement opportunity.</li>
+              <li data-en="Built weekly reporting dashboards that reduced manual reporting time by 4 hours per week." data-zh="构建每周报告仪表板，将手动报告时间每周减少4小时。">Built weekly reporting dashboards that reduced manual reporting time by 4 hours per week.</li>
+              <li data-en="Collaborated with the product team to define KPIs and presented findings to senior management." data-zh="与产品团队合作定义KPI，并向高级管理层展示研究结果。">Collaborated with the product team to define KPIs and presented findings to senior management.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-en="Skills" data-zh="技能">Skills</span>
+        <h2 data-en="What I Work With" data-zh="我的技能栈">What I Work With</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title" data-en="Data Analysis" data-zh="数据分析">Data Analysis</h3>
+          <div class="tag-wrap">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title" data-en="Visualization" data-zh="数据可视化">Visualization</h3>
+          <div class="tag-wrap">
+            <span class="tag">Tableau</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">Seaborn</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title" data-en="Business & Analytics" data-zh="商业与分析">Business &amp; Analytics</h3>
+          <div class="tag-wrap">
+            <span class="tag">Financial Modeling</span>
+            <span class="tag">Regression Analysis</span>
+            <span class="tag">Data Storytelling</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title" data-en="Tools" data-zh="工具">Tools</h3>
+          <div class="tag-wrap">
+            <span class="tag">Excel</span>
+            <span class="tag">Jupyter Notebook</span>
+            <span class="tag">Git</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label" data-en="Contact" data-zh="联系">Contact</span>
+        <h2 data-en="Let's Connect" data-zh="与我联系">Let's Connect</h2>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-info">
+          <p class="contact-intro" data-en="I'm actively looking for data analytics internship and full-time opportunities. Don't hesitate to reach out!" data-zh="我正在积极寻找数据分析实习和全职机会，欢迎随时联系！">I'm actively looking for data analytics internship and full-time opportunities. Don't hesitate to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:meredith@example.com" class="contact-link">
+              <span class="contact-icon">✉</span>
+              <span>meredith@example.com</span>
+            </a>
+            <a href="https://linkedin.com/in/meredithding" target="_blank" rel="noopener" class="contact-link">
+              <span class="contact-icon">in</span>
+              <span>linkedin.com/in/meredithding</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name" data-en="Name" data-zh="姓名">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="email" data-en="Email" data-zh="邮箱">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="message" data-en="Message" data-zh="留言">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Say hello…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" data-en="Send Message" data-zh="发送消息">Send Message</button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p data-en="© 2025 Meredith Ding · Built with care" data-zh="© 2025 Meredith Ding · 用心构建">© 2025 Meredith Ding · Built with care</p>
+  </footer>
+
+  <!-- ===== PROJECT MODAL ===== -->
+  <div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal">
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+      <h2 class="modal-title" id="modal-title"></h2>
+      <p class="modal-desc" id="modal-desc"></p>
+      <div class="modal-tools" id="modal-tools"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
